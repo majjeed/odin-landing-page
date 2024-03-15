@@ -6,7 +6,7 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 0 15%;
+    padding: 0;
     margin: 0;
 
 }
@@ -21,6 +21,7 @@ body {
 
 .header-main-container {
     margin-bottom: 146px;
+    padding: 0 15%;
 }
 
 .header-logo {
@@ -85,5 +86,53 @@ ul {
     flex: 1;
     padding: 16px;
     gap: 8px;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+
+.main-content-two-container {
+    background-color: #fff;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-two-header-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    margin: 50px 0 25px 0;
+}
+
+.main-content-two-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+    margin: 0 0 100px 0;
+}
+
+.card-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: auto;
+}
+
+.img-container {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 5%;
 }
